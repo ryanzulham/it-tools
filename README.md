@@ -11,18 +11,40 @@ Repo ini adalah **marketplace** berisi satu atau lebih plugin yang bisa dipasang
 
 ---
 
+## Prasyarat
+
+- **Node.js 18+** (untuk menjalankan Claude Code via `npx`). Cek dengan `node -v`.
+  Jika belum ada, unduh dari <https://nodejs.org> (pilih versi LTS).
+
+## Menjalankan Claude Code
+
+Pilih salah satu:
+
+**A. Via `npx` (tanpa install global — disarankan untuk mencoba cepat):**
+```bash
+npx @anthropic-ai/claude-code
+```
+Perintah ini mengunduh & menjalankan Claude Code sekali jalan, tanpa memasang permanen.
+
+**B. Install global (bila sering dipakai):**
+```bash
+npm install -g @anthropic-ai/claude-code
+claude
+```
+
+> Cara Claude Code dijalankan (`npx` atau global) **tidak memengaruhi plugin** —
+> perintah `/plugin` di bawah bekerja sama persis di keduanya.
+
 ## Cara Pakai (untuk anggota tim)
 
-Jalankan di dalam sesi Claude Code:
+Setelah Claude Code terbuka, jalankan di dalam sesinya:
 
 ```
-/plugin marketplace add <ORG-ATAU-USER>/it-tools
+/plugin marketplace add ryanzulham/it-tools
 /plugin install it-hardware-health@it-tools
 ```
 
-Ganti `<ORG-ATAU-USER>/it-tools` dengan lokasi repo ini di GitHub
-(mis. `perusahaan/it-tools`). Untuk repo Git internal (GitLab/Bitbucket/self-hosted),
-gunakan URL lengkap:
+Untuk repo Git internal (GitLab/Bitbucket/self-hosted), gunakan URL lengkap, mis.:
 
 ```
 /plugin marketplace add https://git.perusahaan.co.id/it/it-tools.git
@@ -34,6 +56,21 @@ Setelah terpasang, skill aktif otomatis. Cukup minta, misalnya:
 - "cek kesehatan PC ini"
 - "apakah laptop ini perlu diganti?"
 - "buatkan laporan kondisi komputer dan ekspor ke PDF"
+- "buatkan memo pengajuan ganti laptop ke HRD"
+
+### Ringkasan alur lengkap (via npx)
+
+```bash
+# 1. Jalankan Claude Code (butuh Node.js 18+)
+npx @anthropic-ai/claude-code
+
+# 2. Di dalam sesi Claude Code, ketik:
+#    /plugin marketplace add ryanzulham/it-tools
+#    /plugin install it-hardware-health@it-tools
+
+# 3. Lalu minta, misalnya:
+#    "diagnosa laptop saya dan ekspor ke PDF"
+```
 
 ## Update
 
