@@ -13,8 +13,9 @@
 </p>
 
 <p align="center">
-  Kumpulan tools internal IT Support untuk <a href="https://claude.com/claude-code">Claude Code</a>.<br>
-  Repo ini adalah <b>marketplace</b> berisi satu atau lebih plugin yang bisa dipasang tim.
+  Kumpulan tools IT Support untuk <a href="https://claude.com/claude-code">Claude Code</a>.<br>
+  Repo ini adalah <b>marketplace publik</b> — <b>siapa saja</b> bisa memasang plugin di bawah ini,
+  tanpa perlu undangan atau akses khusus.
 </p>
 
 ## Plugin yang tersedia
@@ -49,7 +50,10 @@ claude
 > Cara Claude Code dijalankan (`npx` atau global) **tidak memengaruhi plugin** —
 > perintah `/plugin` di bawah bekerja sama persis di keduanya.
 
-## Cara Pakai (untuk anggota tim)
+## Cara Pakai (untuk semua pengguna)
+
+Karena repo ini publik, **siapa pun** dapat memasangnya — baik anggota tim IT maupun
+pengguna umum. Langkah dan perintahnya sama untuk semua orang.
 
 Setelah Claude Code terbuka, jalankan di dalam sesinya:
 
@@ -58,7 +62,8 @@ Setelah Claude Code terbuka, jalankan di dalam sesinya:
 /plugin install it-hardware-health@it-tools
 ```
 
-Untuk repo Git internal (GitLab/Bitbucket/self-hosted), gunakan URL lengkap, mis.:
+Menjalankan sendiri salinan repo ini di Git internal (GitLab/Bitbucket/self-hosted)?
+Gunakan URL lengkap, mis.:
 
 ```
 /plugin marketplace add https://git.perusahaan.co.id/it/it-tools.git
