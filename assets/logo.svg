@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="170" viewBox="0 0 640 170" role="img" aria-label="IT Hardware Health">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2027"/>
+      <stop offset="0.5" stop-color="#203a43"/>
+      <stop offset="1" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#36d1a0"/>
+      <stop offset="1" stop-color="#3fa7ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="640" height="170" rx="20" fill="url(#bg)"/>
+
+  <!-- Laptop + heartbeat icon -->
+  <g transform="translate(40,45)">
+    <!-- screen -->
+    <rect x="0" y="0" width="86" height="58" rx="6" fill="none" stroke="url(#accent)" stroke-width="3.5"/>
+    <!-- base -->
+    <path d="M-8 66 h102 l-6 8 h-90 z" fill="url(#accent)"/>
+    <!-- heartbeat pulse -->
+    <polyline points="8,30 24,30 32,14 44,46 54,24 62,30 78,30"
+      fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Title -->
+  <text x="170" y="72" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+    font-size="34" font-weight="700" fill="#ffffff" letter-spacing="0.5">IT Hardware Health</text>
+  <!-- Subtitle -->
+  <text x="171" y="104" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+    font-size="16.5" font-weight="400" fill="#9fd8c8">Diagnosa &amp; Laporan Kesehatan Laptop/PC</text>
+  <!-- tagline chip -->
+  <g transform="translate(171,120)">
+    <rect x="0" y="0" width="196" height="26" rx="13" fill="#ffffff" opacity="0.10"/>
+    <circle cx="16" cy="13" r="5" fill="#36d1a0"/>
+    <text x="30" y="18" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+      font-size="13" fill="#dbeee7">Claude Code Plugin · read-only</text>
+  </g>
+</svg>

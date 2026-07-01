@@ -1,7 +1,21 @@
-# IT Tools — Marketplace Plugin Claude Code
+<p align="center">
+  <img src="assets/logo.svg" alt="IT Hardware Health" width="560">
+</p>
 
-Kumpulan tools internal IT Support untuk [Claude Code](https://claude.com/claude-code).
-Repo ini adalah **marketplace** berisi satu atau lebih plugin yang bisa dipasang tim.
+<h1 align="center">IT Tools — Marketplace Plugin Claude Code</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude%20Code-plugin-8A2BE2" alt="Claude Code plugin">
+  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-2c5364" alt="Platform">
+  <img src="https://img.shields.io/badge/version-0.1.0-36d1a0" alt="Version">
+  <img src="https://img.shields.io/badge/mode-read--only-brightgreen" alt="Read-only">
+  <img src="https://img.shields.io/badge/install-npx%20%7C%20global-3fa7ff" alt="Install via npx or global">
+</p>
+
+<p align="center">
+  Kumpulan tools internal IT Support untuk <a href="https://claude.com/claude-code">Claude Code</a>.<br>
+  Repo ini adalah <b>marketplace</b> berisi satu atau lebih plugin yang bisa dipasang tim.
+</p>
 
 ## Plugin yang tersedia
 
