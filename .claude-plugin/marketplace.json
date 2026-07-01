@@ -1,0 +1,17 @@
+{
+  "name": "it-tools",
+  "owner": {
+    "name": "IT Support"
+  },
+  "metadata": {
+    "description": "Kumpulan tools internal IT Support untuk Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "it-hardware-health",
+      "source": "./plugins/it-hardware-health",
+      "description": "Diagnosa & laporan kesehatan hardware laptop/PC lintas-OS, dengan verdict repair-vs-replace dan ekspor PDF."
+    }
+  ]
+}

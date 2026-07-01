@@ -1,0 +1,9 @@
+{
+  "name": "it-hardware-health",
+  "description": "IT Support: diagnosa perangkat keras laptop/PC (macOS, Windows, Linux), analisa kesehatan komponen, laporan + verdict repair-vs-replace, dan ekspor PDF ke Desktop.",
+  "version": "0.1.0",
+  "author": {
+    "name": "IT Support"
+  },
+  "keywords": ["it-support", "hardware", "diagnostics", "laptop", "health-report"]
+}
