@@ -93,7 +93,7 @@ npx @anthropic-ai/claude-code
 
 ## Update
 
-Saat plugin diperbarui (maintainer `git push`), anggota tim menarik versi terbaru dengan:
+Saat plugin diperbarui (maintainer `git push`), pengguna menarik versi terbaru dengan:
 
 ```
 /plugin marketplace update it-tools
