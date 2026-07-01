@@ -26,6 +26,19 @@
 
 ---
 
+## Contoh Hasil Diagnosa
+
+Skill menghasilkan laporan berisi tabel status per komponen (🟢 sehat / 🟠 perhatian /
+🔴 kritis), analisa, dan **verdict** *KEEP / REPAIR / REPLACE* — siap diekspor ke PDF.
+
+<p align="center">
+  <img src="assets/example-report.png" alt="Contoh laporan hasil diagnosa" width="720">
+</p>
+
+<p align="center"><sub>Contoh laporan (serial number disamarkan).</sub></p>
+
+---
+
 ## Prasyarat
 
 - **Node.js 18+** (untuk menjalankan Claude Code via `npx`). Cek dengan `node -v`.
